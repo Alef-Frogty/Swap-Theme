@@ -1,0 +1,50 @@
+* {
+    margin: auto;
+    padding: auto;
+    font-family: 'Courier New', Courier, monospace, Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-image: url(./imagensswap/gokuback.gif);
+    background-size: cover;
+  }
+
+
+
+.goku {
+    padding-top: 50px;
+    margin-top: 170px;
+    width: 100vh;
+    justify-content: center;
+    display: flex;
+    
+}
+  
+.goku h1 {
+    font-size: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    background-image: url(./imagensswap/gokuh1.gif);
+    background-position: center;
+    background-size: 400px;
+    background-clip:content-box ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#btn {
+    border-radius: 50%;
+    background-color: #000;
+}
+
+#btn img {
+    width: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#btn img #dark-theme {
+    display: none;
+}
